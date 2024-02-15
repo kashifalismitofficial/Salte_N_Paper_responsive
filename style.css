@@ -1,0 +1,877 @@
+@font-face {
+    font-family: 'futurak';
+    src: url(Fonts/futurak.ttf);
+}
+
+@font-face {
+    font-family: 'appercu';
+    src: url(Fonts/Apercu\ Light.otf);
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(Fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'butler';
+    src: url(Fonts/Butler_Bold.otf);
+}
+
+
+
+/* Nave-bar-start */
+body {
+    background-color: #000 !important;
+}
+
+.container1 {
+    max-width: 1300px;
+    margin: 0px auto;
+    padding: 0px 30px;
+}
+
+.drk {
+    background-color: #000;
+    height: 90px;
+}
+
+.logo img {
+    width: 160px;
+}
+
+.White {
+    color: #fff;
+    line-height: 24px;
+  
+}
+
+.trs {
+    background-color: transparent;
+    border: 1px solid #FFFFFF !important;
+    color: #fff;
+}
+
+.red {
+    background-color: #ED1C24;
+    color: #fff;
+
+}
+
+.red>i {
+    background-color: #fff;
+    color: #ED1C24;
+
+}
+
+
+@media only screen and (min-width:1038px) {
+
+    .eight {
+        display: none;
+    }
+
+
+}
+
+@media only screen and (max-width:1042px) {
+
+    .drk {
+        background-color: #000;
+        height: 60px;
+    }
+
+    .brack li {
+        font-size: 11px;
+    }
+
+    .red-res {
+        background-color: #ED1C24;
+        color: #fff;
+
+    }
+
+    .red-res>i {
+        background-color: #fff;
+        color: #ED1C24;
+
+    }
+
+}
+
+@media only screen and (max-width:1048px) {
+
+    .brack li {
+        display: none;
+    }
+
+    .brger {
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .logo img {
+        display: none;
+    }
+
+    .Logo img {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width:792px) {
+
+    .red-res {
+        background-color: #ED1C24;
+        color: #fff;
+
+    }
+
+    .red-res {
+        font-size: 14px;
+
+    }
+
+    .red-res>i {
+        background-color: #fff;
+        color: #ED1C24;
+
+    }
+
+    .brack li {
+        display: none;
+    }
+
+    .brger {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .logo img {
+        display: none;
+    }
+
+    .Logo img {
+        width: 90px;
+    }
+}
+
+
+/* Nave-bar- end  */
+
+
+/*  Cards Start */
+
+/* Salten-Heading-Start */
+.welcomeparent {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding-bottom: 35px;
+}
+
+.salten>h3 {
+    font-size: 35px;
+    font-weight: lighter;
+    padding-top: 70px;
+    margin: 0px;
+
+
+}
+
+.salten>h3>span {
+    font-family: 'futurak';
+    font-size: 50px;
+
+}
+
+.salten p {
+    color: #AFAFAF;
+    margin-top: 0px;
+    font-size: 16px;
+    margin-bottom: 0px;
+
+}
+
+
+@media only screen and (max-width:770px) {
+    .salten>h3 {
+        font-size: 25px;
+        font-weight: lighter;
+        padding-top: 70px;
+        margin: 0px;
+
+
+    }
+
+    .salten>h3>span {
+        font-family: 'futurak';
+        font-size: 35px;
+
+    }
+
+    .salten p {
+        color: #AFAFAF;
+        margin-top: 0px;
+        font-size: 14px;
+        margin-bottom: 0px;
+
+    }
+}
+
+/* Cards Start */
+.dark {
+    background-color: #000;
+    padding-bottom: 70px;
+}
+
+/* .Three_cards {
+    display: inline-flex;
+}
+
+.card1 {
+    background-color: #fff;
+    padding: 20px 15px;
+    width: 300px;
+    border-radius: 10px;
+} */
+
+
+/* .container02
+{
+    max-width: 1000px;
+    margin: 0px auto;
+} */
+
+/* .card1>img {
+    width: 200px;
+    text-align: center;
+
+} */
+
+.card_button {
+    text-align: center;
+}
+
+.card_button>button {
+    border: none;
+    padding: 13px 50px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #4D4D4D !important;
+    margin-top: 20px;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+/* Cards ENd */
+
+.img-width {
+    width: 250px;
+}
+
+
+/* Salten-Heading-ENd */
+
+
+/* Frenchise_Section_Start */
+
+.half-dark {
+    background-color: #0F0F0F;
+}
+
+.salten_parent {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.Style_Salten {
+    text-align: center;
+}
+
+.Style_Salten>h3>span {
+    font-family: 'futurak';
+    font-size: 54px;
+    letter-spacing: 2px;
+    color: #fff;
+
+}
+
+.salten_parent h3 {
+    font-size: 45px;
+    font-weight: 100;
+    font-family: 'butler';
+    letter-spacing: 2px;
+    color: #fff;
+    margin: 0px;
+}
+
+.Style_Salten>p {
+    color: #AFAFAF;
+    font-size: 16px;
+    margin: 0px;
+}
+
+/* Heading_box_Start */
+.bk {
+    padding: 80px;
+}
+
+.container-image {
+    max-width: 1300px;
+    margin: 0px auto;
+}
+
+
+.heading_box {
+
+    text-align: left;
+    margin: 0px;
+    color: #fff;
+
+
+
+}
+
+.isl_red-fre {
+    color: #ED1C24;
+    font-family: 'appercu';
+    letter-spacing: 9px;
+    font-weight: lighter;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0px;
+    padding-top: 15px;
+    text-align:left;
+
+}
+
+.getdirection {
+    border: none;
+    padding: 13px 30px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid#4D4D4D !important;
+    margin-top: 20px;
+    margin-bottom: 125px;
+
+
+}
+
+.getdirection i {
+    border: none;
+    padding: 5px 5px;
+    border-radius: 55px;
+    background-color: #fff;
+    color: #ED1C24;
+}
+
+.heading_box span {
+    font-family: 'futurak';
+    letter-spacing: 2px;
+    margin: 0px;
+    font-size: 35px;
+
+}
+
+.Restaurant {
+    font-family: 'appercu' !important;
+    font-weight: lighter;
+    font-size: 29px;
+}
+
+address {
+    color: #AFAFAF;
+    font-size: 16px;
+    font-style: normal;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+address i {
+    letter-spacing: 3px;
+}
+
+.image_01>img {
+    width: 100%;
+
+
+}
+
+
+.image_02>img {
+    width: 100%;
+
+
+}
+
+.heading_box02 span {
+
+    font-family: 'futurak';
+    letter-spacing: 2px;
+    margin: 0px;
+    font-size: 35px;
+
+
+}
+
+.heading_box02 {
+
+    text-align: left;
+    margin: 0px;
+    padding-left: 20px;
+    color: #fff;
+
+
+
+}
+
+/* Heading_box_ Edn  */
+
+@media only screen and (max-width:509px) {
+    .bk {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width:769px) {
+    .image_02 {
+        padding-top: 50px;
+    }
+
+    .heading_box02 {
+
+        text-align: center;
+        margin: 0px;
+        padding-top: 20px;
+        color: #fff;
+    }
+
+    .heading_box {
+
+        text-align: center;
+        color: #fff;
+        height: 333px;
+    }
+
+    .getdirection {
+        border: none;
+        padding: 13px 30px;
+        border-radius: 35px;
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid#4D4D4D !important;
+        margin-bottom: 125px;
+
+
+    }
+    .isl_red-fre {
+        color: #ED1C24;
+        font-family: 'appercu';
+        letter-spacing: 9px;
+        font-weight: lighter;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin: 0px;
+        padding-top: 15px;
+        text-align:center;
+    
+    }
+}
+
+/* Frenchise_Section_ End  */
+
+/* Express Frenchise Section Start */
+
+.ig
+{
+    width: 100%;
+}
+.heading_box-card {
+
+    padding: 20px 0px;
+    color: #fff;
+    text-align: center;
+
+}
+
+.isl_red {
+    color: #ED1C24;
+    font-family: 'appercu';
+    letter-spacing: 9px;
+    font-weight: lighter;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0px;
+    padding-top: 15px;
+    text-align: center;
+
+}
+
+.getdirection_crd {
+    border: none;
+    padding: 13px 30px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid#4D4D4D !important;
+    font-family: 'poppins';
+
+}
+
+.getdirection_crd i {
+    border: none;
+    padding: 5px 5px;
+    border-radius: 55px;
+    background-color: #fff;
+    color: #ED1C24;
+
+}
+
+.heading_box-card span {
+    font-family: 'futurak';
+    letter-spacing: 2px;
+    margin: 0px auto;
+    font-size: 25px;
+
+}
+
+.Restaurant {
+    font-family: 'appercu' !important;
+    font-weight: lighter;
+    font-size: 29px;
+}
+
+address {
+    color: #AFAFAF;
+    font-size: 16px;
+    font-style: normal;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+address i {
+    letter-spacing: 3px;
+}
+
+.crd-img {
+    width: 350px;
+
+
+}
+@media only screen and (max-width:1200px)
+{
+    .crd-img {
+        width: 250px;
+    
+    }   
+}
+@media only screen and (max-width:992px)
+{
+    .heading_box-card
+{
+    height: 500px;
+}
+.crd-img {
+    width: 300px;
+
+}   
+}
+
+/* Express Frenchise Section  End  */
+
+/* Promotion_Section_Start */
+.promotion_section
+{
+    background-color: #0F0F0F;
+    padding-bottom: 50px;
+}
+.vill-img
+{
+    width: 100%;
+}
+.heading_box-village {
+
+   
+    color: #fff;
+    margin-left:10px;
+    margin-top: 30px;
+
+}
+
+.isl_red-village {
+    color: #ED1C24;
+    font-family: 'appercu';
+    letter-spacing: 9px;
+    font-weight: lighter;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0px auto;
+
+
+}
+
+.getdirection-village {
+    border: none;
+    padding: 13px 30px;
+    border-radius: 35px;
+    background-color: #28A745;
+    color: #fff;
+    border: 1px solid#4D4D4D !important;
+    font-family: 'poppins';
+
+}
+
+.getdirection-village i {
+    border: none;
+    padding: 5px 5px;
+    border-radius: 55px;
+    background-color: #fff;
+    color: #28A745;
+
+}
+
+.heading_box-village span {
+    font-family: 'futurak';
+    letter-spacing: 2px;
+    margin: 0px auto;
+    font-size: 35px;
+
+}
+@media only screen and (max-width:768px)
+{
+    .heading_box-village {
+
+   
+      text-align: center;
+      margin-top: 20px;
+    
+    }
+}
+/* Promotion_Section_ End  */
+
+
+/* Locations Start */
+.margin-lo span {
+    font-family: 'butler';
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #000;
+    padding-left: 15px;
+
+}
+
+.salten_parent-loca h2 {
+    font-size: 50px;
+    font-weight: 100;
+    font-family: 'butler';
+    letter-spacing: 2px;
+    color: #fff;
+    margin: 0px;
+}
+
+
+.Style_Salten-loca {
+    text-align: center;
+}
+
+.Style_Salten-loca > h3 > span {
+    font-family: 'futurak';
+    font-size: 54px;
+    letter-spacing: 2px;
+    color: #fff;
+
+}
+
+
+
+
+.Restaurant-loc {
+    font-family: 'appercu' !important;
+    font-weight: lighter;
+    font-size: 29px;
+    color: #000;
+}
+.White-loca
+{
+    background-color: #fff;
+    border-radius: 10px;
+}
+.heading_box-loca {
+
+    padding: 20px 0px;
+    color: #fff;
+    text-align: center;
+
+}
+.heading_box-loca span {
+    font-family: 'futurak';
+    letter-spacing: 2px;
+    margin: 0px auto;
+    font-size: 25px;
+
+}
+@media only screen and (max-width:715px)
+{
+    .father_parent-loca
+    {
+        padding-top: 20px;
+    }
+    .White-loca
+    {
+        height: 250px;
+        margin-bottom: 20px;
+    }
+    .salten_parent-loca h2 {
+        font-size: 15px;
+        font-weight: 100;
+        font-family: 'butler';
+        letter-spacing: 2px;
+        color: #fff;
+        padding-top: 20px;
+    }
+    
+    
+    .Style_Salten-loca {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+    .Style_Salten-loca > h3 > span {
+        font-family: 'futurak';
+        font-size: 25px;
+        letter-spacing: 2px;
+        color: #fff;
+    
+    }
+
+}
+@media only screen and (max-width:992px)
+{
+    .White-loca
+    {
+        height: 250px;
+        margin-bottom: 20px;
+    }
+    .heading_box-loca
+    {
+        font-size: 16px;
+    }
+
+}
+
+/* Locations  End  */
+
+/* Social Start */
+.social_Feed
+{
+    display: inline-flex;
+    background-color: #000;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.social_Feed img
+{
+width: 90%;
+
+}
+/* Social  End  */
+
+
+
+/* Footer Start */
+
+/* Footer Start */
+.main_footer
+{
+display: flex;
+justify-content: space-evenly;
+background-color: #0F0F0F;
+color: #B4B4B4;
+flex-wrap: wrap;
+padding: 50px 0px;
+font-family: 'appercu';
+
+
+}
+.First_box {
+    /* background-color: #000; */
+    color: #B4B4B4;
+    width: 400px;
+    font-family: 'appercu';
+    
+}
+.term_Cond
+{
+    margin: 0px;
+}
+
+.term_Cond a {
+    text-decoration: none;
+    color: #B4B4B4;
+    font-family: 'appercu';
+    
+}
+
+.term_Cond li {
+    display: inline;
+}
+.term_Cond{
+    padding: 0px;
+
+}
+
+
+.second_box h3 {
+    margin: 0px;
+    color: #fff;
+    font-family: 'appercu';
+}
+.second_box ul
+{
+padding: 0px;
+}
+.second_box li
+{
+    padding-top: 20px;
+    list-style: none;
+    color: #AFAFAF;
+
+}
+.second_box a {
+    list-style: none;
+    color: #AFAFAF;
+    text-decoration: none;
+    font-family: 'appercu'; 
+}
+.fourth_box h3
+{
+    margin: 0px;
+color: #fff;
+font-family: 'appercu';
+}
+.fourth_box
+{
+padding-left: 10px;
+
+}
+.social_icons i
+{
+color: #fff;
+background-color: #ED1C24;
+padding: 15px;
+font-size: 25px;
+border-radius: 35px;
+
+}
+.insta{
+    padding: 0px 4px;
+}
+/* Footer End */
+
+
+
+
+
