@@ -223,6 +223,7 @@ body {
 .dark {
     background-color: #000;
     padding-bottom: 70px;
+    padding-top: 50;
 }
 
 /* .Three_cards {
@@ -784,11 +785,15 @@ width: 90%;
 /* Footer Start */
 
 /* Footer Start */
+.foot
+{
+    background-color: #0F0F0F;
+
+}
 .main_footer
 {
 display: flex;
 justify-content: space-evenly;
-background-color: #0F0F0F;
 color: #B4B4B4;
 flex-wrap: wrap;
 padding: 50px 0px;
@@ -797,7 +802,6 @@ font-family: 'appercu';
 
 }
 .First_box {
-    /* background-color: #000; */
     color: #B4B4B4;
     width: 400px;
     font-family: 'appercu';
@@ -868,6 +872,20 @@ border-radius: 35px;
 }
 .insta{
     padding: 0px 4px;
+}
+@media only screen and (max-width:522px)
+{
+    .main_footer
+{
+display: flex;
+flex-direction: column;
+color: #B4B4B4;
+flex-wrap: wrap;
+padding: 50px 0px;
+font-family: 'appercu';
+
+
+}
 }
 /* Footer End */
 
